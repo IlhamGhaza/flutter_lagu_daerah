@@ -31,7 +31,7 @@ class _HomePageState extends State<HomePage> {
         itemBuilder: (context, index) {
           return Padding(
             padding:
-                const EdgeInsets.symmetric(horizontal: 16.0, vertical: 2.0),
+                const EdgeInsets.symmetric(horizontal: 16.0, vertical: 4.0),
             child: InkWell(
               onTap: () {
                 Navigator.push(context, MaterialPageRoute(builder: (context) {
